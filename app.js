@@ -1,55 +1,55 @@
 // Exercise 1 Section
-console.log("EXERCISE 1:\n==========\n");
-function printOdds(count) {
-    for (let i = 1; i <= count; i++) {
-        if (i % 2 != 0) {
-            console.log(i);
-        }
-    }
-}
+//console.log("EXERCISE 1:\n==========\n");
+//function printOdds(count) {
+//    for (let i = 1; i <= count; i++) {
+ //       if (i % 2 != 0) {
+ //           console.log(i);
+  //      }
+   // }
+//}
 
-printOdds(10); 
-printOdds(100);
+//printOdds(10); 
+//printOdds(100);
 
 // Exercise 2 Section
-console.log("EXERCISE 2:\n==========\n");
-function checkAge(name, age) {
-    let oldEnoughMsg = `Congrats ${name}! You can drive!`;
-    let tooYoungMsg = `Sorry ${name}, you need to wait ${
-        16 - age
-    } year(s) until you can drive.`;
+//console.log("EXERCISE 2:\n==========\n");
+//function checkAge(name, age) {
+  //  let oldEnoughMsg = `Congrats ${name}! You can drive!`;
+   // let tooYoungMsg = `Sorry ${name}, you need to wait ${
+     //   16 - age
+   // } year(s) until you can drive.`;
 
-    if (age >= 16) {
-        console.log(tooYoungMsg);
-    } else {
-        console.log(oldEnoughMsg);
-    }
-}
+ //   if (age >= 16) {
+   //     console.log(tooYoungMsg);
+  //  } else {
+    //    console.log(oldEnoughMsg);
+  //  }
+//}
 
-checkAge(22,"Chad");
+//checkAge(22,"Chad");
 
 // Exercise 3 Section
-console.log("EXERCISE 4:\n==========\n");
-function whichQuadrant(x, y) {
-    if (x > 0 && y > 0) {
-        console.log(`${x}, ${y} is in Quandrant 1`);
-    } else if (x < 0 && y > 0) {
-        console.log(`${x}, ${y} is in Quandrant 2`);
-    } else if (x < 0 && y < 0) {
-        console.log(`${x}, ${y} is in Quandrant 3`);
-    } else if (x > 0 && y < 0) {
-        console.log(`${x}, ${y} is in Quandrant 4`);
-    } else if (x != 0 && x == 0) {
-        console.log(`${x}, ${y} is on the x axis`);
-    } else if (y != 0 && x == 0) {
-        console.log(`${x}, ${y} is on the y axis`);
-    } else {
-        console.log(`${x}, ${y} is on the origin`);
-    }
-}
+//console.log("EXERCISE 4:\n==========\n");
+//function whichQuadrant(x, y) {
+  //  if (x > 0 && y > 0) {
+    //    console.log(`${x}, ${y} is in Quandrant 1`);
+   // } else if (x < 0 && y > 0) {
+     //   console.log(`${x}, ${y} is in Quandrant 2`);
+   // } else if (x < 0 && y < 0) {
+     //   console.log(`${x}, ${y} is in Quandrant 3`);
+  //  } else if (x > 0 && y < 0) {
+    //    console.log(`${x}, ${y} is in Quandrant 4`);
+   // } else if (x != 0 && x == 0) {
+     //   console.log(`${x}, ${y} is on the x axis`);
+  //  } else if (y != 0 && x == 0) {
+    //    console.log(`${x}, ${y} is on the y axis`);
+   // } else {
+     //   console.log(`${x}, ${y} is on the origin`);
+//    }
+//}
 
 // Exercise 4 Section
-console.log("EXERCISE 4:\n==========\n");
+//console.log("EXERCISE 4:\n==========\n");
 function typeOfTriangle(side1, side2, side3) {
     let isValid = false;
     if (side1 + side2 > side3 && side2 + side3 > side1 && side1 + side3 > side2) {
@@ -74,13 +74,13 @@ function typeOfTriangle(side1, side2, side3) {
     }
 }
 
-//typeOfTriangle(2, 2, 2); equilateral
-//typeOfTriangle(1, 2, 2); isosceles
-//typeOfTriangle(1, 1, 2); invalid
-//typeOfTriangle(2, 3, 4); scalene
+//typeOfTriangle(2, 2, 2); //equilateral
+//typeOfTriangle(1, 2, 2); //isosceles
+//typeOfTriangle(1, 1, 2); //invalid
+//typeOfTriangle(2, 3, 4); //scalene
 
 //Exercise 5 
-console.log("Exercise 5: \n=======\n");
+//console.log("Exercise 5: \n=======\n");
 
 function dataPlan(planLimit, day, usage) {
     let daysLeftOnPlan = 30 - day;
